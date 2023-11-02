@@ -1,0 +1,82 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(assets/jezael-melgoza-To5wAJDt1IM-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.active{
+  opacity: 1;
+  color: #09e7c2;
+  text-shadow: 0 0 40px #09e7c2;
+}
+.judul{
+  display: grid;
+  justify-content: center;
+}
+header{
+  border: 2px solid rgba(255, 255, 255, .3);
+  width: 100%;
+  height: 13vh;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  position: fixed;
+  top: 0;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+nav ul li{
+  list-style: none;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.15rem;
+  line-height: 4.8;
+  transition: all 2s ease;
+  opacity: 0.5;
+  font-weight: 500;
+}
+nav ul li a:hover{
+  opacity: 1;
+  color: #09e7c2;
+  transition: all 0.85s ease;
+  text-shadow: 0 0 20px #09e7c2,
+  0 0 50px #09e7c2;
+}
+h1{ 
+  text-align: center;
+  color: #fff;
+  font-size: 5rem;
+  margin-top: 230px;
+}
+h3{
+  text-align: center;
+  color: #000000;
+  font-size: 1.70rem;
+}
+button{
+  padding: 15px 40px;
+  border-radius: 20px;
+  border: none;
+  background: rgba(5, 255, 222, 0.3);
+  color: #fff;
+  font-size: 1.10rem;
+  margin-top: 50px;
+  transition: all 1.85s ease;
+}
+button:hover{
+  background: #09e7c2;
+  cursor: pointer;
+  transition: all 0.85s ease;
+  box-shadow: 0 0 40px #09e7c2;
+}

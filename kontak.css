@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(assets/jezael-melgoza-To5wAJDt1IM-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.active{
+  opacity: 1;
+  color: #09e7c2;
+  text-shadow: 0 0 40px #09e7c2;
+}
+header{
+    border: 2px solid rgba(255, 255, 255, .3);
+    width: 100%;
+    height: 13vh;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+  nav ul li{
+    list-style: none;
+  
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.15rem;
+    line-height: 4.8;
+    transition: all 2s ease;
+    opacity: 0.5;
+    font-weight: 500;
+  }
+  nav ul li a:hover{
+    opacity: 1;
+    color: #09e7c2;
+    transition: all 0.85s ease;
+    text-shadow: 0 0 20px #09e7c2,
+    0 0 50px #09e7c2;
+  }
+  .container{
+    border: 3px solid rgba(0, 255, 255, .1);
+    width: 95%;
+    height: max-content;
+    border-radius: 100px 0px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, .3);
+    color: #fff4f4;
+    box-shadow: 0 0 35px #03f1e6;
+    padding-bottom: 25px;
+}
+.top{
+    margin-top: 20px;
+}
+.panjang{
+    width: 80%;
+}
+.margin{
+    margin-top: 10px;
+}
+.kanan{
+   margin-right: 36%;
+}
+p{
+   margin-left: 155px;
+   margin-top: -25px;
+}
+button{
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+button[type='submit']:focus{
+    box-shadow: 0 0 30px #03f1e6;
+}
+button[type='reset']:focus{
+    box-shadow: 0 0 30px #eb1111;
+}
+.hijau{
+    background: rgba(0, 255, 255, .2);
+    border: 1px solid #03f1e6;
+    border-bottom-color: #333;
+    transition: all 1.85s ease;
+    margin-right: 50px;
+}
+.hijau:hover{
+    background: #03f1e6;
+    cursor: pointer;
+    box-shadow: 0 0 30px #03f1e6;
+    transition: all 0.85s ease;
+}
+.merah{
+    background: rgba(255, 0, 0, 0.1);
+    transition: all 1.85s ease;
+    margin-left: 50px;
+    border: 1px solid #eb1111;
+    border-bottom-color: #333;
+}
+.merah:hover{
+    background: #eb1111;
+    border-bottom-color: #333;
+    box-shadow: 0 0 30px #eb1111;
+    transition: all 0.85s ease;
+    cursor: pointer;
+}
+input[type="text"]{
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 80%;
+    font-size: 1.10rem;
+    background: rgba(0, 255, 255, .2);
+    color: #fff;
+    transition: all 1.85s ease;
+    border: 1px solid #03f1e6;
+    margin-top: 10px;
+    border-bottom-color: #333;
+}
+input[type="text"]:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px #03f1e6;
+    transition: all 0.85s ease;
+}
+input[type="text"]:focus{
+    outline: none;
+    cursor: text;
+    box-shadow: 0 0 30px #03f1e6;
+}
+input[type="date"]{
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 40%;
+    font-size: 1.10rem;
+    background: rgba(0, 255, 255, .2);
+    color: #fff;
+    transition: all 1.85s ease;
+    border: 1px solid #03f1e6;
+    margin-top: 10px;
+    border-bottom-color: #333;
+}
+input[type="date"]:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px #03f1e6;
+    transition: all 0.85s ease;
+}
+input[type="date"]:focus{
+    outline: none;
+    cursor: auto;
+    box-shadow: 0 0 30px #03f1e6;
+}
+select{
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 40%;
+    font-size: 1rem;
+    background: rgba(0, 255, 255, .2);
+    color: #fff;
+    outline: none;
+    transition: all 1.85s ease;
+    border: 1px solid #03f1e6;
+    margin-top: 10px;
+    border-bottom-color: #333;
+}
+select:focus{
+    box-shadow: 0 0 30px #03f1e6;
+}
+select:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px #03f1e6;
+    transition: all 0.85s ease;
+}
+option{
+    color: #000;
+}
+textarea{
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    outline: none;
+    transition: all 1.85s ease;
+    border: 1px solid #03f1e6;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background: rgba(0, 255, 255, .2);
+    color: #fff;
+    border-bottom-color: #333;
+}
+textarea:focus{
+    box-shadow: 0 0 30px #03f1e6;
+    cursor: text;
+}
+textarea:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px #03f1e6;
+    transition: all 0.85s ease;
+}
+/* input[type="radio"]{
+   appearance: ;
+   border: 1px solid #03f1e6;
+   border-bottom-color: #333;
+   width: 50px-;
+   border-radius: 10px;
+   background: rgba(0, 255, 255, .2);
+   transition: all 1.85s ease;
+} */
+/* input[type="radio"]:focus{
+    padding: 5px 5px;
+    border-radius: 100%;
+    background: #fff;
+} */
+/* input[type="radio"]:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px #03f1e6;
+    transition: all 0.85s ease;
+} */
+label{
+    font-size: 1.40rem;
+    margin-top: 20px;
+}
+input[type=radio   ]:not(old){
+    width     : 2em;
+    margin    : 0;
+    padding   : 0;
+    font-size : 1em;
+    opacity   : 0;
+  }
+  /* Tahap Kedua Kita mengatur posisi label */
+  
+  input[type=radio   ]:not(old) + label{
+    display      : inline-block;
+    margin-left  : -1em;
+    line-height  : 1.5em;
+  }
+  /* Kemudian kita buat style untuk radio button yang keadaanya tidak terpilih atau “checked” */
+  
+  input[type=radio   ]:not(old) + label > span{
+    display          : inline-block;
+    width            : 0.875em;
+    height           : 0.875em;
+    margin           : 0.25em 0.5em 0.25em 0.25em;
+    border           : 0.0625em solid rgb(192,192,192);
+    border-radius    : 0.25em;
+    background       : rgb(224,224,224);
+    background-image :    -moz-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+    background-image :     -ms-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+    background-image :      -o-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+    background-image : -webkit-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+    background-image :         linear-gradient(rgb(240,240,240),rgb(224,224,224));
+    vertical-align   : bottom;
+  }
+  /* Langkah Selanjutnya adalah membuat style radio button yang terpilih atau “checked” */
+  
+  input[type=radio   ]:not(old):checked + label > span{
+    background-image :    -moz-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+    background-image :     -ms-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+    background-image :      -o-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+    background-image : -webkit-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+    background-image :         linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  }
+  /* Langkah yang terakhir adalah membuat bulatan pada radio button yang terpilih */
+  
+  input[type=radio]:not(old):checked + label > span > span{
+    display          : block;
+    width            : 0.5em;
+    height           : 0.5em;
+    margin           : 0.125em;
+    border           : 0.0625em solid rgb(115,153,77);
+    border-radius    : 0.125em;
+    background       : rgb(153,204,102);
+    background-image :    -moz-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+    background-image :     -ms-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+    background-image :      -o-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+    background-image : -webkit-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+    background-image :         linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  }
+  .toggle {
+    --width: 80px;
+    --height: calc(var(--width) / 3);
+    margin-right: 250px;
+    position: relative;
+    display: inline-block;
+    width: var(--width);
+    height: var(--height);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: var(--height);
+    cursor: pointer;
+  }
+
+  .toggle input {
+    display: none;
+  }
+
+  .toggle .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--height);
+    background-color: #ccc;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .toggle .slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(var(--height));
+    height: calc(var(--height));
+    border-radius: calc(var(--height) / 2);
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .toggle input:checked+.slider {
+    background-color: #2196F3;
+  }
+
+  .toggle input:checked+.slider::before {
+    transform: translateX(calc(var(--width) - var(--height)));
+  }
+
+  .toggle .labels {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: sans-serif;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .toggle .labels::after {
+    content: attr(data-off);
+    position: absolute;
+    right: 5px;
+    color: #4d4d4d;
+    opacity: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .toggle .labels::before {
+    content: attr(data-on);
+    position: absolute;
+    left: 5px;
+    color: #ffffff;
+    opacity: 0;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .toggle input:checked~.labels::after {
+    opacity: 0;
+  }
+
+  .toggle input:checked~.labels::before {
+    opacity: 1;
+  }

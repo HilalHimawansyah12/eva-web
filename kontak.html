@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/frame.png" type="gif/png">
+    <link rel="stylesheet" href="kontak.css">
+    <title>Hilal Himawansyah</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="kontak.html" class="active">Kontak Kami</a></li>
+                <li><a href="">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+     <div class="container">
+        <form action="" method="post" enctype="multipart/form-data" aria-multiline="true">
+            <center>
+            <div class="top">
+            <label for="">NISN</label>
+            </div>
+              <div>
+                <input type="text" name="" id="" placeholder="Isi nisn anda" required>
+              </div>
+            <div class="top">
+            <label for="">NAMA</label>
+            </div>
+            <div>
+                <input type="text" name="" id="" placeholder="Isi nama anda" required>
+            </div>
+            <div class="top">
+                <label for="">TEMPAT DAN TANGGAL LAHIR</label>
+            </div>
+            <div>
+               <div>
+                <select name="" id="" required>
+                    <option value="" disabled selected>PILIH KOTA ANDA</option>
+                    <option value="medan">Medan</option>
+                    <option value="jakarta">Jakarta</option>
+                    <option value="pekanbaru">Pekanbaru</option>
+                    <option value="padang">Padang</option>
+                    <option value="sukabumi">Sukabumi</option>
+                    <option value="batam">Batam</option>
+                </select>
+                <input type="date" name="" id="" required>
+                </div>
+            </div>
+            <div class="top">
+                <label for="">AGAMA</label>
+            </div>
+            <div>
+                <select name="" id="" required class="panjang">
+                    <option value="" disabled selected>PILIH AGAMA ANDA</option>
+                    <option value="islam">Islam</option>
+                    <option value="katolik">Katolik</option>
+                    <option value="protestan">Protestan</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+                    <option value="konghucu">Konghucu</option>
+                </select>
+            </div>
+            <div class="top">
+                <label for="">JENIS KELAMIN</label>
+            </div>
+            <div>
+                <input id="option" type="radio" name="field" value="option" required>
+                <label for="option"><span><span></span></span>LAKI-LAKI</label>
+                <input id="option" type="radio" name="field" value="option" required>
+                <label for="option"><span><span></span></span>PEREMPUAN</label>
+              </div>
+              <div class="top">
+                <label for="">ALAMAT LENGKAP</label>
+              </div>
+              <div>
+                <textarea name="" id="" cols="110" rows="10" style="margin-top: 10px;" required placeholder="ISI ALAMAT ANDA"></textarea>
+              </div>
+              <div class="top">
+                    <center>
+                <label class="toggle">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                  
+                    <!-- label element 👇 -->
+                    <span class="labels" data-on="YA" data-off="TIDAK"></span>
+                </label>
+                <p>SAYA MENYATAKAN DATA SUDAH BENAR!</p>
+              </center>
+              </div>
+              <div class="top">
+                <button type="submit" class="hijau"><i class='bx bxs-plane-alt' style="font-size: 1.20rem;"></i>KIRIM</button>
+                <button type="reset" class="merah"><i class='bx bx-x-circle' style="font-size: 1.20rem;"></i>BATAL</button>
+              </div>
+           </center>
+        </form>
+    </div>
+</body>
+</html>
